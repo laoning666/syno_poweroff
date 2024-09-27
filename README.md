@@ -6,3 +6,7 @@
 
 192.168.2.12为ping的IP，如果两次都ping不成功，那么则会关机。
 也可以直接修改代码中的IP地址，就不用加参数了
+
+# 使用说明
+
+[https://blog.synocircle.top/archives/117/](https://blog.synocircle.top/archives/117/)
