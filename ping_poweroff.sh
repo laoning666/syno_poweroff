@@ -23,7 +23,8 @@ main() {
     log_message "脚本开始执行"
 
     if ping -c "$PING_COUNT" "$ROUTER_IP" >/dev/null 2>&1; then
-        log_message "Ping $ROUTER_IP 成功"
+        # 成功写入日志
+        # log_message "Ping $ROUTER_IP 成功"
         rm -f "$PING_FAIL_FILE"
     else
         log_message "Ping $ROUTER_IP 失败"
